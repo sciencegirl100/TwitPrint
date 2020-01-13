@@ -7,5 +7,10 @@
     "test": "node index.js"
   },
   "author": "Liz",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "printer": "^0.4.0",
+    "twit": "^2.2.11",
+    "user-stream": "0.0.8"
+  }
 }
