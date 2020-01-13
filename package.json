@@ -1,0 +1,11 @@
+{
+  "name": "twitprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Liz",
+  "license": "Apache-2.0"
+}
