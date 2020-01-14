@@ -11,7 +11,8 @@ var T = new Twit({
 })
 
 var stream = T.stream('statuses/filter', {
-  follow: conf["by_user_id"]
+  //follow: conf["by_user_id"]
+  track: conf["keyword"]
 })
 
 stream.on('tweet', function(tweet){
